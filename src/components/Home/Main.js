@@ -11,62 +11,60 @@ import Gallery from "../HomeMain/Gallery";
 import Pricing from "../HomeMain/Pricing";
 import Feature from "../HomeMain/Feature";
 import Product from "../HomeMain/Product";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+
+const spanStyle = {
+  padding: "20px",
+  background: "#efefef",
+  color: "#000000",
+};
+
+const divStyle = {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  // backgroundSize: "cover",
+  height: "400px",
+};
+const slideImages = [
+  {
+    url: "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    caption: "Slide 1",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+    caption: "Slide 2",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    caption: "Slide 3",
+  },
+];
 
 const Main = () => {
   return (
     <>
       <main>
         <section id="home" className="slider-area fix p-relative">
-          <div className="slider-active" style={{ background: "#00173c" }}>
-            <div
-              className="single-slider slider-bg d-flex align-items-center"
-              style={{
-                backgroundSize: "cover",
-                backgroundImage: `url(${BGImg})`,
-              }}
-            >
-              <div className="container">
-                <div className="row justify-content-center align-items-center">
-                  <div className="col-lg-10 col-md-6">
-                    <div className="slider-content s-slider-content mt-20">
-                     
-                      <h2
-                        data-animation="fadeInUp"
-                        data-delay=".4s"
-                        style={{ color: "white" }}
-                      >
-                        Enhancing our community
-                        <br />
-                        one smile at a time
-                      </h2>
-                      <p
-                        data-animation="fadeInUp"
-                        data-delay=".6s"
-                        style={{ color: "white" }}
-                      >
-                        GENERAL & COSMETIC DENTISTRY SERVING DUNKIRK, MD AND
-                        SURROUNDING AREAS
-                      </p>
-
-                      <div className="slider-btn mt-30">
-                        <Link to="/contact" className="btn ss-btn mr-15">
-                          Request an Appointment
-                        </Link>
-                        <Link to="/contact" className="btn ss-btn active">
-                          Meet the doctor
-                        </Link>
-                      </div>
-                    </div>
+          <div className="slide-container">
+            <Slide>
+              {slideImages.map((slideImage, index) => (
+                <div key={index}>
+                  <div
+                    style={{
+                      ...divStyle,
+                      backgroundImage: `url(${slideImage.url})`,
+                    }}
+                  >
+                    <span style={spanStyle}>{slideImage.caption}</span>
                   </div>
-                  <div className="col-lg-6 col-md-6 p-relative"></div>
                 </div>
-              </div>
-            </div>
+              ))}
+            </Slide>
           </div>
         </section>
-        <Feature />
-        
-      
+
         {/* <div
               className="  d-flex align-items-center"
           style={{
@@ -77,11 +75,9 @@ const Main = () => {
                 width:"100%"
               }}
             ></div> */}
-        <Gallery/>
-        
-       
+        {/* <Gallery /> */}
+
         {/* <Testimonial /> */}
-        
       </main>
     </>
   );

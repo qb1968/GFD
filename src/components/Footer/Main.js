@@ -23,17 +23,7 @@ const Main = () => {
                     <img src={Img1} alt="logo" />
                   </div>
                   <div className="footer-link">
-                    <p>
-                      Dr. Cynthia Sclater is a dental care professional
-                      dedicated to providing patients with painless and gentle
-                      cosmetic, family and general dentistry. Located in
-                      Dunkirk, Maryland the office serves Calvert County,
-                      Southern Anne Arundel County and neighboring cities such
-                      as Huntingtown, Owings, Sunderland, North Beach,
-                      Chesapeake Beach, Prince Frederick, Lothian, Harwood,
-                      Friendship, Tracys Landing, Deale, Churchton, West River
-                      and Shady Side.
-                    </p>
+                   
                     <div className="f-contact">
                       <ul>
                         <li>

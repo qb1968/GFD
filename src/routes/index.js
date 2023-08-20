@@ -12,6 +12,7 @@ import Gallery from '../components/Pages/Gallery/Main'
 import Pricing from '../components/Pages/Pricing/Main'
 import Faq from '../components/Pages/Faq/Main'
 import Team from '../components/Pages/Team/Main'
+import Team2 from '../components/Pages/Team/Main2'
 import TeamDetails from '../components/Pages/TeamDetails/Main'
 import TeamDetails2 from '../components/Pages/TeamDetails/Main2'
 import TeamDetails3 from '../components/Pages/TeamDetails/Main3'
@@ -31,7 +32,7 @@ import ShopDetails from '../components/Pages/ShopDetails/Main'
 import Blog from '../components/BlogMain/Blog/Main'
 import BlogDetails from '../components/BlogMain/BlogDetails/Main'
 import Contact from '../components/Contact/Main'
-
+import Billing from '../components/billing'
 
 const Routing = () => {
 
@@ -65,6 +66,7 @@ const Routing = () => {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/team2" element={<Team2/>} />
         <Route path="/team-details" element={<TeamDetails />} />
         <Route path="/team-details2" element={<TeamDetails2 />} />
         <Route path="/team-details3" element={<TeamDetails3 />} />
@@ -83,6 +85,7 @@ const Routing = () => {
         <Route path="/shop-details" element={<ShopDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
+        <Route path='/billing' element={<Billing/>} />
         <Route path="/contact" element={<Contact />} />
 
       </Routes>

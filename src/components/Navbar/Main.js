@@ -70,14 +70,17 @@ const Main = () => {
                           <Link to="/about">About Us</Link>
                           <ul>
                             <li>
+                              <Link to="/team2">Meet The Doctors</Link>
+                            </li>
+                             <li>
                               <Link to="/team">Team</Link>
                             </li>
                           </ul>
                         </li>
 
-                        {/* <li className="has-sub">
-                          <Link to="#">Pages</Link>
-                          <ul>
+                        <li className="has-sub">
+                          <Link to="#">Resources</Link>
+                          {/* <ul>
                             <li>
                               <Link to="/gallery">Gallery</Link>
                             </li>
@@ -100,10 +103,10 @@ const Main = () => {
                             <li>
                               <Link to="/shop-details">Shop Details</Link>
                             </li>
-                          </ul>
-                        </li>
+                          </ul>*/}
+                        </li> 
                         <li className="has-sub">
-                          <Link to="/blog">Blog</Link>
+                          <Link to="/blog">Services</Link>
                           <ul>
                             <li>
                               <Link to="/blog">Blog</Link>
@@ -112,10 +115,13 @@ const Main = () => {
                               <Link to="/blog-details">Blog Details</Link>
                             </li>
                           </ul>
-                        </li> */}
-                        {/* <li>
+                        </li> 
+                         <li>
+                          <Link to="/billing">Billing and Insurance</Link>
+                        </li>
+                         <li>
                           <Link to="/contact">Contact</Link>
-                        </li> */}
+                        </li>
                       </ul>
                     </nav>
                   </div>
