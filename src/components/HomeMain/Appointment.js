@@ -9,10 +9,8 @@ const Appointment = () => {
         id="booking"
         className="booking-area p-relative pt-120 pb-120"
         style={{
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundImage: `url(${BGImg3})`,
+          
+          backgroundColor: "#71a28a",
         }}
       >
         <div className="container">
@@ -20,13 +18,9 @@ const Appointment = () => {
             <div className="col-lg-6">
               <div className="contact-bg">
                 <div className="section-title center-align">
-                  <h5>Get In Touch</h5>
-                  <h2>Get Appointment</h2>
-                  <p>
-                    Aenean ut enim vel lectus rutrum sodales. Aliquam consequat
-                    augue eget enim convallis, at maximus libero ullamcorper.
-                    Cras sit amet placerat nisi.
-                  </p>
+                  <h5 style={{color:"black"}}>Get In Touch</h5>
+                  <h2 style={{color:"black"}}>Request An Appointment</h2>
+                 
                 </div>
                 <form
                   action="mail.php"
@@ -57,21 +51,7 @@ const Appointment = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-lg-6">
-                      <div className="contact-field p-relative c-subject mb-20">
-                        <select
-                          className="custom-select"
-                          id="inputGroupSelect04"
-                          aria-label="Example select with button addon"
-                        >
-                          <option> Department...</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <i className="fa fa-angle-down"></i>
-                      </div>
-                    </div>
+                   
                     <div className="col-lg-6">
                       <div className="contact-field p-relative c-subject mb-20">
                         <input
