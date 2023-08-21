@@ -18,7 +18,7 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-6 col-md-12 col-sm-12">
-              <img src={Img} alt="img"  />
+              <img src={Img} alt="img"  style={{height:500}}/>
               <div
                 className="s-about-img p-relative  wow fadeInLeft animated"
                 data-animation="fadeInLeft"

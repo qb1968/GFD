@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Img1 from "../../assets/img/bg/logo (3).png"
+import Logo from "../../assets/img/logo/logo (3).png"
 
 const Main = () => {
   const [mobile, setmobile] = useState(false);
@@ -21,10 +22,16 @@ const Main = () => {
                     <Link to="/contact" className="btn ss-btn mr-15">
                       Patient Paperwork
                     </Link>
-                    <span>Cynthia Sclater, D.M.D.</span>
+                    <span style={{fontWeight:"bold"}}>Cynthia Sclater, D.M.D.</span>
+                     <img src={Logo} style={{marginLeft:"10rem"}}/>
                   </div>
+                  
                 </div>
               </div>
+              
+                
+              
+             
               <div className="col-lg-4 col-md-4 d-none d-lg-block text-right">
                 <div className="header-social">
                   <li>
@@ -80,39 +87,107 @@ const Main = () => {
 
                         <li className="has-sub">
                           <Link to="#">Resources</Link>
-                          {/* <ul>
-                            <li>
-                              <Link to="/gallery">Gallery</Link>
+                          <ul>
+                            <li className="has-sub">
+                              <Link to="/">Smile Gallery</Link>
+                              <ul>
+                                 <li>
+                                <Link to="/">Cosmetic Dentistry</Link>
+                              </li>
+                                 <li>
+                                <Link to="/">Restorations</Link>
+                              </li>
+                                 <li>
+                                <Link to="/">Orthodontics</Link>
+                              </li>
+                                 <li>
+                                <Link to="/">Cosmetic Procedures</Link>
+                              </li>
+                              </ul>
                             </li>
+                            
+                             
+                            
 
                             <li>
-                              <Link to="/pricing">Pricing</Link>
+                              <Link to="/">Faqs</Link>
                             </li>
                             <li>
-                              <Link to="/faq">Faq</Link>
+                              <Link to="/">Links</Link>
                             </li>
-                            <li>
-                              <Link to="/team">Team</Link>
-                            </li>
-                            <li>
-                              <Link to="/team-details">Team Details</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop">Shop</Link>
-                            </li>
-                            <li>
-                              <Link to="/shop-details">Shop Details</Link>
-                            </li>
-                          </ul>*/}
+                            
+                          </ul>
                         </li> 
                         <li className="has-sub">
-                          <Link to="/blog">Services</Link>
+                          <Link to="/">Services</Link>
                           <ul>
-                            <li>
-                              <Link to="/blog">Blog</Link>
+                            <li className="has-sub">
+                              <Link to="/">Botox as an Alternative Treatment for TMD</Link>
+                              <ul>
+                                <li>
+                                  <Link to="">Benefits of Boxtox for TMJ</Link>
+                                </li>
+                              </ul>
                             </li>
-                            <li>
-                              <Link to="/blog-details">Blog Details</Link>
+                            <li className="has-sub">
+                              <Link to="/">Cosmetic Dentistry</Link>
+                              <ul>
+                                <li>
+                                  <Link to="">Opalescence Teeth Whitening</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Juvaderm</Link>
+                                </li>
+                                <li>
+                                  <Link to="">CEREC</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Porcelain Veneers</Link>
+                                </li>
+                              </ul>
+                              
+                            </li>
+                            <li className="has-sub">
+                              <Link to="">Dental Anxiety and Fear</Link>
+                              <ul>
+                                <li>
+                                  <Link to="">How to Reduce Dental Anxiety</Link>
+                                </li>
+                              </ul>
+                            </li>
+                            <li className="has-sub">
+                              <Link to="">Laser Dentistry</Link>
+                              <ul>
+                                <li>
+                                  <Link to="">Laser Bacterial Reduction</Link>
+                                </li>
+                                <li>
+                                  <Link to="">BIOLASE Waterlase Technology</Link>
+                                </li>
+                              </ul>
+                            </li>
+                            <li className="has-sub">
+                              <Link to="">Restorations</Link>
+                              <ul>
+                                <li>
+                                  <Link to="">Dental Implants</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Composite Fillings</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Crowns(Caps)</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Dentures & Partial Dentures</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Fixed Bridges</Link>
+                                </li>
+                                <li>
+                                  <Link to="">Root Canal Therapy</Link>
+                                </li>
+                              </ul>
                             </li>
                           </ul>
                         </li> 

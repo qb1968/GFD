@@ -6,6 +6,11 @@ import Img2 from "../../assets/img/icon/ft-icon01.png";
 import Footer from "../../assets/img/icon/ft-icon02.png";
 import Footer1 from "../../assets/img/icon/ft-icon03.png";
 import { faClock } from "@fortawesome/react-fontawesome";
+import ADA from "../../assets/img/brand/ada.png"
+import AAFE from "../../assets/img/brand/aafe.png"
+import AGD from "../../assets/img/brand/agd.png"
+import MSDA from "../../assets/img/brand/msda.png"
+import Botox from "../../assets/img/brand/botox.png"
 
 const Main = () => {
   return (
@@ -32,20 +37,32 @@ const Main = () => {
                               <faClock/>
                             </div>
                             <div className="text">
-                              <strong>Monday - Saturday:</strong>
-                              <p>9:00am - 10:00pm</p>
-                              <strong>Monday - Saturday:</strong>
-                              <p>9:00am - 10:00pm</p>
+                              <strong>Monday - Wednesday:</strong>
+                              <p>8:00am - 7:00pm</p>
+                              <strong>Thursday:</strong>
+                              <p>8:00am - 1:00pm</p>
+                              <strong>Friday:</strong>
+                              <p>Closed</p>
                             </div>
+                            
                           </div>
+                          
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-             
-             
+              <div className="col-xl-8 col-lg-8 col-sm-6" >
+                <div className="row justify-content-between">
+                 <img src={ADA} style={{height:150,width:150}}/>
+                 <img src={AAFE} style={{height:150,width:150}}/>
+                 <img src={AGD} style={{height:150,width:150}}/>
+                 <img src={MSDA} style={{height:150,width:150}}/>
+                 <img src={Botox} style={{height:150,width:150}}/>
+                 </div>
+              </div>
+            
               
               
             </div>

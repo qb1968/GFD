@@ -113,20 +113,18 @@ const Appointment = () => {
                 </div>
                 <h3>Opening Hours</h3>
                 <div className="text">
-                  <div className="left-text">Monday to Friday:</div>
-                  <div className="right-text">09:00 am – 10:00 pm</div>
+                  <div className="left-text">Monday to Wednesday:</div>
+                  <div className="right-text">08:00 am – 7:00 pm</div>
                 </div>
                 <div className="text">
-                  <div className="left-text">Saturday:</div>
-                  <div className="right-text">09:00 am – 08:00 pm</div>
+                  <div className="left-text">Thursday:</div>
+                  <div className="right-text">08:00 am – 01:00 pm</div>
                 </div>
                 <div className="text">
-                  <div className="left-text">Sunday:</div>
-                  <div className="right-text">09:00 am – 05:00 pm</div>
+                  <div className="left-text">Friday:</div>
+                  <div className="right-text">Closed</div>
                 </div>
-                <div className="discount">
-                  Check out seasonal discounts for best offers.
-                </div>
+                
               </div>
             </div>
           </div>
