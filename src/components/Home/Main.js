@@ -7,6 +7,9 @@ import Image2 from "../../assets/img/gallery/content-img-3-updated.jpg"
 import Image3 from "../../assets/img/gallery/content-img-4.jpg"
 import Image4 from "../../assets/img/gallery/content-img-5.jpg"
 import Image5 from "../../assets/img/gallery/content-img-6.jpg"
+import Gallery from "../HomeMain/Gallery"
+import VideoPlayer from "react-background-video-player";
+import Video from "../../assets/img/bg/new.mp4";
 
 
 
@@ -16,19 +19,9 @@ const Main = () => {
   return (
     <>
       <main>
-        <section id="home" className="slider-area fix p-relative">
-          <h1 style={{display:"flex",justifyContent:"center"}}>Welcome</h1>
-          <div className="slide-container">
-            <AliceCarousel autoPlay autoPlayInterval="4000">
-          <img src={Image1} classname="sliderimg" style={{marginLeft:"36rem"}}/>
-          <img src={Image2} classname="sliderimg" style={{marginLeft:"49rem"}}/>
-          <img src={Image3} classname="sliderimg"style={{marginLeft:"47rem"}}/>
-          <img src={Image4} classname="sliderimg"style={{marginLeft:"43rem"}}/>
-          <img src={Image5} classname="sliderimg"style={{marginLeft:"45rem"}}/>
-          </AliceCarousel>
-          </div>
-        </section>
-
+        <div>
+          <VideoPlayer src={Video} autoPlay={true} muted={false} />
+        </div>
         {/* <div
               className="  d-flex align-items-center"
           style={{
@@ -39,7 +32,9 @@ const Main = () => {
                 width:"100%"
               }}
             ></div> */}
-        {/* <Gallery /> */}
+        <div className="container" style={{ marginTop: "50rem" }}>
+          <Gallery />
+        </div>
 
         {/* <Testimonial /> */}
       </main>

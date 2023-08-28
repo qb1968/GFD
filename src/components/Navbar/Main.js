@@ -2,6 +2,12 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Img1 from "../../assets/img/bg/logo (3).png"
 import Logo from "../../assets/img/logo/logo (3).png"
+import VideoPlayer from "react-background-video-player";
+import Video from "../../assets/img/bg/new.mp4"
+import Gallery from "../HomeMain/Gallery";
+
+
+
 
 const Main = () => {
   const [mobile, setmobile] = useState(false);
@@ -13,54 +19,6 @@ const Main = () => {
   return (
     <>
       <header className="header-area">
-        <div className="header-top second-header d-none d-md-block">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-8 col-md-8 d-none d-lg-block">
-                <div className="header-cta">
-                  <div className="slider-btn mt-30">
-                    <Link to="/contact" className="btn ss-btn mr-15">
-                      Patient Paperwork
-                    </Link>
-                    <span style={{fontWeight:"bold"}}>Cynthia Sclater, D.M.D.</span>
-                     <img src={Logo} style={{marginLeft:"10rem"}}/>
-                  </div>
-                  
-                </div>
-              </div>
-              
-                
-              
-             
-              <div className="col-lg-4 col-md-4 d-none d-lg-block text-right">
-                <div className="header-social">
-                  <li>
-                    <i className="icon fa fa-envelope"></i>
-                    <span>office@dunkirkdental.com </span>
-                  </li>
-                  <li>
-                    <i className="icon fa fa-phone"></i>
-                    <span>410-257-2424</span>
-                  </li>
-                  <span>
-                    <a href="https://www.facebook.com/" title="Facebook">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" title="Instagram">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com" title="Twitter">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.youtube.com/" title="Youtube">
-                      <i className="fab fa-youtube"></i>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div id="header-sticky" className="menu-area">
           <div className="container">
             <div className="second-menu">
@@ -79,7 +37,7 @@ const Main = () => {
                             <li>
                               <Link to="/team2">Meet The Doctors</Link>
                             </li>
-                             <li>
+                            <li>
                               <Link to="/team">Team</Link>
                             </li>
                           </ul>
@@ -91,23 +49,20 @@ const Main = () => {
                             <li className="has-sub">
                               <Link to="/">Smile Gallery</Link>
                               <ul>
-                                 <li>
-                                <Link to="/">Cosmetic Dentistry</Link>
-                              </li>
-                                 <li>
-                                <Link to="/">Restorations</Link>
-                              </li>
-                                 <li>
-                                <Link to="/">Orthodontics</Link>
-                              </li>
-                                 <li>
-                                <Link to="/">Cosmetic Procedures</Link>
-                              </li>
+                                <li>
+                                  <Link to="/">Cosmetic Dentistry</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">Restorations</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">Orthodontics</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">Cosmetic Procedures</Link>
+                                </li>
                               </ul>
                             </li>
-                            
-                             
-                            
 
                             <li>
                               <Link to="/">Faqs</Link>
@@ -115,14 +70,15 @@ const Main = () => {
                             <li>
                               <Link to="/">Links</Link>
                             </li>
-                            
                           </ul>
-                        </li> 
+                        </li>
                         <li className="has-sub">
                           <Link to="/">Services</Link>
                           <ul>
                             <li className="has-sub">
-                              <Link to="/">Botox as an Alternative Treatment for TMD</Link>
+                              <Link to="/">
+                                Botox as an Alternative Treatment for TMD
+                              </Link>
                               <ul>
                                 <li>
                                   <Link to="">Benefits of Boxtox for TMJ</Link>
@@ -145,13 +101,14 @@ const Main = () => {
                                   <Link to="">Porcelain Veneers</Link>
                                 </li>
                               </ul>
-                              
                             </li>
                             <li className="has-sub">
                               <Link to="">Dental Anxiety and Fear</Link>
                               <ul>
                                 <li>
-                                  <Link to="">How to Reduce Dental Anxiety</Link>
+                                  <Link to="">
+                                    How to Reduce Dental Anxiety
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
@@ -162,7 +119,9 @@ const Main = () => {
                                   <Link to="">Laser Bacterial Reduction</Link>
                                 </li>
                                 <li>
-                                  <Link to="">BIOLASE Waterlase Technology</Link>
+                                  <Link to="">
+                                    BIOLASE Waterlase Technology
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
@@ -190,11 +149,11 @@ const Main = () => {
                               </ul>
                             </li>
                           </ul>
-                        </li> 
-                         <li>
+                        </li>
+                        <li>
                           <Link to="/billing">Billing and Insurance</Link>
                         </li>
-                         <li>
+                        <li>
                           <Link to="/contact">Contact</Link>
                         </li>
                       </ul>
@@ -384,6 +343,7 @@ const Main = () => {
             </div>
           </div>
         </div>
+       
       </header>
     </>
   );

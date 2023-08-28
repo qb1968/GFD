@@ -238,11 +238,7 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
          </h1>
          <div className="container">
            <div className="row">
-             <div className="col-lg-4">
-               <figure>
-                 <img src={Img1} alt="" />
-               </figure>
-             </div>
+            
 
              <div className="col-lg-4">
                <figure>

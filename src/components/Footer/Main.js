@@ -17,63 +17,95 @@ const Main = () => {
     <>
       <footer
         className="footer-bg footer-p pt-90"
-        style={{ backgroundColor: "#71A28A", }}
+        style={{ backgroundColor: "#71A28A" }}
       >
-        <div className="footer-top">
-          <div className="container" >
-            <div className="row justify-content-between">
-              <div className="col-xl-4 col-lg-4 col-sm-6">
-                <div className="footer-widget mb-30">
-                  <div className="f-widget-title mb-40">
-                    <img src={Img1} alt="logo" />
-                  </div>
-                  <div className="footer-link">
-                   
-                    <div className="f-contact">
-                      <ul>
-                        <li>
-                          <div className="contact-box">
-                            <div className="icon">
-                              <faClock/>
-                            </div>
-                            <div className="text">
-                              <strong>Monday - Wednesday:</strong>
-                              <p>8:00am - 7:00pm</p>
-                              <strong>Thursday:</strong>
-                              <p>8:00am - 1:00pm</p>
-                              <strong>Friday:</strong>
-                              <p>Closed</p>
-                            </div>
-                            
-                          </div>
-                          
-                        </li>
-                      </ul>
-                    </div>
+        <div className="header-top second-header d-none d-md-block">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-8 col-md-8 d-none d-lg-block">
+                <div className="header-cta">
+                  <div className="slider-btn mt-30">
+                    <Link to="/contact" className="btn ss-btn mr-15">
+                      Patient Paperwork
+                    </Link>
+                    <span style={{ fontWeight: "bold", color: "black" }}>
+                      Cynthia Sclater, D.M.D.
+                    </span>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-8 col-lg-8 col-sm-6" >
-                <div className="row justify-content-between">
-                 <img src={ADA} style={{height:150,width:150}}/>
-                 <img src={AAFE} style={{height:150,width:150}}/>
-                 <img src={AGD} style={{height:150,width:150}}/>
-                 <img src={MSDA} style={{height:150,width:150}}/>
-                 <img src={Botox} style={{height:150,width:150}}/>
-                 </div>
+
+              <div className="col-lg-4 col-md-4 d-none d-lg-block text-right">
+                <div className="header-social">
+                  <li>
+                    <i
+                      className="icon fa fa-envelope"
+                      style={{ color: "black" }}
+                    ></i>
+                    <span style={{ color: "black" }}>
+                      office@dunkirkdental.com{" "}
+                    </span>
+                  </li>
+                  <li>
+                    <i
+                      className="icon fa fa-phone"
+                      style={{ color: "black" }}
+                    ></i>
+                    <span style={{ color: "black" }}>410-257-2424</span>
+                  </li>
+                  <span>
+                    <a
+                      href="https://www.facebook.com/"
+                      title="Facebook"
+                      style={{ color: "black" }}
+                    >
+                      <i className="fab fa-facebook-f"></i>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/"
+                      title="Instagram"
+                      style={{ color: "black" }}
+                    >
+                      <i
+                        className="fab fa-instagram"
+                        style={{ color: "black" }}
+                      ></i>
+                    </a>
+                    <a href="https://twitter.com" title="Twitter">
+                      <i
+                        className="fab fa-twitter"
+                        style={{ color: "black" }}
+                      ></i>
+                    </a>
+                    <a
+                      href="https://www.youtube.com/"
+                      title="Youtube"
+                      style={{ color: "black" }}
+                    >
+                      <i className="fab fa-youtube"></i>
+                    </a>
+                  </span>
+                </div>
               </div>
-            
-              
-              
             </div>
-            <div className="row align-items-center copyright-wrap">
-              <div className="col-lg-6">
-                <div className="copy-text">
-                  Copyright &copy; 2022 <Link to="#">Jonathan Mark Allison</Link>. All rights
-                  reserved.
-                </div>
-              </div>
-              
+          </div>
+        </div>
+
+        {/* <div className="col-xl-12 col-lg-8 col-sm-6">
+          <div className="row justify-content-evenly">
+            <img src={ADA} style={{ height: 100, width: 100 }} />
+            <img src={AAFE} style={{ height: 100, width: 100 }} />
+            <img src={AGD} style={{ height: 100, width: 100 }} />
+            <img src={MSDA} style={{ height: 100, width: 100 }} />
+            <img src={Botox} style={{ height: 100, width: 100 }} />
+          </div>
+        </div> */}
+
+        <div className="row align-items-center copyright-wrap">
+          <div className="col-lg-6">
+            <div className="copy-text">
+              Copyright &copy; 2022 <Link to="#">Jonathan Mark Allison</Link>.
+              All rights reserved.
             </div>
           </div>
         </div>
