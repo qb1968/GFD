@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import BGImg6 from "../../assets/img/bg/gallery-bg.png";
 import FsLightbox from "fslightbox-react";
-import Img1 from "../../assets/img/gallery/content-img-2.jpg";
+import Img1 from "../../assets/img/brand/ada.png";
 import Img2 from "../../assets/img/gallery/content-img-1.jpg";
 import Img3 from "../../assets/img/gallery/content-img-3-updated.jpg";
 import Img4 from "../../assets/img/gallery/content-img-4.jpg";
 import Img5 from "../../assets/img/gallery/content-img-5.jpg";
 import Img6 from "../../assets/img/gallery/content-img-6.jpg";
-import Img7 from "../../assets/img/gallery/protfolio-img07.png";
-import Img8 from "../../assets/img/gallery/protfolio-img08.png";
+import Img7 from "../../assets/img/brand/aafe.png";
+import Img8 from "../../assets/img/brand/agd.png";
+import Img9 from "../../assets/img/brand/msda.png"
+import Img10 from "../../assets/img/brand/botox.png"
 
 // const Gallery = () => {
 //   const [toggler, setToggler] = useState(false);
@@ -222,10 +224,7 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
  const Gallery = () => {
    return (
      <>
-       <section
-         className="team-area fix p-relative pt-120 pb-90"
-         
-       >
+       <section className="team-area fix p-relative pt-120 pb-90">
          <h1
            style={{
              fontSize: "50px",
@@ -234,12 +233,11 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
              color: "black",
            }}
          >
-           Welcome
+           Welcome To GFD
          </h1>
+
          <div className="container">
            <div className="row">
-            
-
              <div className="col-lg-4">
                <figure>
                  <img src={Img4} alt="" />
@@ -252,7 +250,7 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
              </div>
              <div className="col-lg-4">
                <figure>
-                 <img src={Img2} alt="" style={{height:"367px"}} />
+                 <img src={Img2} alt="" style={{ height: "367px" }} />
                </figure>
              </div>
 
@@ -261,12 +259,38 @@ import Img8 from "../../assets/img/gallery/protfolio-img08.png";
                  <img src={Img5} alt="" />
                </figure>
              </div>
-            
+             <div className="col-lg-4">
+               <figure>
+                 <img alt="" />
+               </figure>
+             </div>
+
              <div className="col-lg-4">
                <img src={Img6} alt="" />
              </div>
              
+             <h1 style={{ textAlign: "center" }}>Our Associations</h1>
+             <div style={{display:'flex',flexDirection:'row',justifyContent:"space-evenly",marginTop:"15px"}}>
+               <div >
+               <img src={Img1} alt="" />
+             </div>
+             <div >
+               <img src={Img7} alt="" />
+             </div>
+             <div >
+               <img src={Img8} alt="" />
+             </div>
+             <div >
+               <img src={Img9} alt="" />
+             </div>
+             <div >
+               <img src={Img10} alt="" />
+             </div>
+             </div>
+             
+            
            </div>
+           <div></div>
          </div>
        </section>
      </>

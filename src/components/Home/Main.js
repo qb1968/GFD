@@ -20,7 +20,20 @@ const Main = () => {
     <>
       <main>
         <div>
-          <VideoPlayer src={Video} autoPlay={true} muted={false} />
+          <VideoPlayer
+            src={Video}
+            
+            autoPlay={true}
+            muted={true}
+            playsInLing={true}
+            style={{
+              height: "85vh",
+              width: "85%",
+              marginLeft: "8rem",
+              marginTop: "5rem",
+            }}
+            
+          />
         </div>
         {/* <div
               className="  d-flex align-items-center"
@@ -32,8 +45,9 @@ const Main = () => {
                 width:"100%"
               }}
             ></div> */}
-        <div className="container" style={{ marginTop: "50rem" }}>
-          <Gallery />
+       
+        <div className="container" style={{ marginTop: "48rem" }}>
+          <Gallery  />
         </div>
 
         {/* <Testimonial /> */}
