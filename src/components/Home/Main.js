@@ -10,7 +10,8 @@ import Image5 from "../../assets/img/gallery/content-img-6.jpg"
 import Gallery from "../HomeMain/Gallery"
 import VideoPlayer from "react-background-video-player";
 import Video from "../../assets/img/bg/new.mp4";
-
+import About from "../HomeMain/About"
+import Logo from "../../assets/img/logo/logo (3).png"
 
 
 
@@ -19,6 +20,10 @@ const Main = () => {
   return (
     <>
       <main>
+        <div style={{ display:"flex",justifyContent: "center" }}>
+          <img src={Logo}  />
+        </div>
+        
         <div>
           <VideoPlayer
             src={Video}
@@ -29,8 +34,9 @@ const Main = () => {
             style={{
               height: "85vh",
               width: "85%",
-              marginLeft: "8rem",
-              marginTop: "5rem",
+              marginLeft: "145px",
+              postion:"center",
+              marginTop: "15rem",
             }}
             
           />
@@ -47,7 +53,7 @@ const Main = () => {
             ></div> */}
        
         <div className="container" style={{ marginTop: "48rem" }}>
-          <Gallery  />
+          <About/>
         </div>
 
         {/* <Testimonial /> */}

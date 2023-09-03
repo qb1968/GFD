@@ -23,7 +23,12 @@ const Main = () => {
           <div className="container">
             <div className="second-menu">
               <div className="row align-items-center">
-                <div className="col-xl-2 col-lg-2"></div>
+                <div className="col-xl-3 col-lg-2"> 
+                    <Link to="/contact" className="btn ss-btn mr-auto" >
+                      Patient Paperwork
+                  </Link>
+                
+                </div>
                 <div className="col-xl-7 col-lg-7">
                   <div className="main-menu text-center text-xl-right">
                     <nav id="mobile-menu">

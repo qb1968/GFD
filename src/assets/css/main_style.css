@@ -291,7 +291,7 @@ label {
 }
 
 .btn:hover{
-    background: #ff4f9d;
+    background: #blue;
     color: #fff;
 }
 .btn:hover::before{opacity: 0;}
@@ -504,11 +504,11 @@ top: -3px;
     font-size: 16px;
     font-family: 'PT Serif', serif;
 }
-.main-menu ul li a::after {
+/* .main-menu ul li a::after {
   content: "+";
   margin-left: 10px;
   color: #71a28a;
-}
+} */
 .main-menu ul li:last-child a::after,.main-menu .has-sub ul li a::after {
   display: none;
 }
@@ -528,7 +528,7 @@ top: -3px;
 	transition: .3s;
 }
 
-.main-menu ul li:hover > a{color: #ff4f9d;}
+.main-menu ul li:hover > a{color: #71A28A;}
 .main-menu ul li:hover > a::before{width: 100%;}
 .display-ib{display: inline-block;}
 .header-social a {

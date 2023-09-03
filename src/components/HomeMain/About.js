@@ -18,7 +18,7 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-6 col-md-12 col-sm-12">
-              <img src={Img} alt="img"  style={{height:500}}/>
+              <img src={Img} alt="img" style={{ height: 500 }} />
               <div
                 className="s-about-img p-relative  wow fadeInLeft animated"
                 data-animation="fadeInLeft"
@@ -32,9 +32,9 @@ const About = () => {
                 data-delay=".4s"
               >
                 <div className="about-title second-title pb-25">
-                  <h2>About Us</h2>
+                  <h2 style={{ color: "black" }}>About Us </h2>
                 </div>
-                <p>
+                <p style={{ fontWeight: "600" }}>
                   We are a dental practice devoted to restoring and enhancing
                   the natural beauty of your smile using conservative,
                   state-of-the-art procedures that will result in a beautiful,
@@ -44,10 +44,12 @@ const About = () => {
                 <div>
                   <p style={{ textAlign: "left" }}>
                     <strong>
-                      <span>Our Mission Statement...</span>
+                      <span style={{ color: "black" }}>
+                        Our Mission Statement...
+                      </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     To provide superior dental care in an inviting and
                     comfortable environment, while creating lasting
                     relationships.
@@ -55,21 +57,23 @@ const About = () => {
                   <p>
                     <strong>
                       <span>
-                        <span>
+                        <span style={{ color: "black" }}>
                           I
-                          <span>
+                          <span style={{ color: "black" }}>
                             n a World of Tech
-                            <strong>nology...</strong>
+                            <strong style={{ color: "black" }}>
+                              nology...
+                            </strong>
                           </span>
                         </span>
                       </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     We are proud to offer the latest dental technology in our
                     Dunkirk, MD office. We are one of
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     the only dental practices in Calvert County to offer CEREC
                     technology. We offer low radiation 3D Cone Beam Imaging to
                     gain the clearest and most accurate digital images to assist
@@ -81,10 +85,10 @@ const About = () => {
                   </p>
                   <p style={{ textAlign: "left", textAlign: "justify" }}>
                     <strong>
-                      <span>High Standards</span>
+                      <span style={{ color: "black" }}>High Standards</span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     A standard of excellence in personalized dental care enables
                     us to provide the quality dental services our patients
                     deserve. We provide comprehensive treatment planning and use
@@ -96,10 +100,12 @@ const About = () => {
                   </p>
                   <p style={{ textAlign: "left", textAlign: "justify" }}>
                     <strong>
-                      <span>Education & Prevention</span>
+                      <span style={{ color: "black" }}>
+                        Education & Prevention
+                      </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     A standard of excellence in personalized dental care enables
                     us to provide the quality dental services our patients
                     deserve. We provide comprehensive treatment planning and use
@@ -111,10 +117,12 @@ const About = () => {
                   </p>
                   <p>
                     <strong>
-                      <span>Uncompromising Safety</span>
+                      <span style={{ color: "black" }}>
+                        Uncompromising Safety
+                      </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     Infection control in our office is also very important to
                     us. To protect our patients and ourselves, we strictly
                     maintain sterilization and cross contamination processes
@@ -125,10 +133,12 @@ const About = () => {
                   </p>
                   <p>
                     <strong>
-                      <span>Training & Expertise</span>
+                      <span style={{ color: "black" }}>
+                        Training & Expertise
+                      </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     As your dental health professionals, we want you to be
                     confident knowing that we are a team of highly trained and
                     skilled clinicians. We pride ourselves in providing the care
@@ -153,10 +163,12 @@ const About = () => {
                   </p>
                   <p>
                     <strong>
-                      <span>A Positive Experience</span>
+                      <span style={{ color: "black" }}>
+                        A Positive Experience
+                      </span>
                     </strong>
                   </p>
-                  <p>
+                  <p style={{ fontWeight: "600" }}>
                     We thank you for allowing us to take care of your dental
                     needs and look forward to serving you.
                   </p>

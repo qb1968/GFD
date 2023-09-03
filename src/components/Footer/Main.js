@@ -16,26 +16,14 @@ const Main = () => {
   return (
     <>
       <footer
-        className="footer-bg footer-p pt-90"
+        className="footer-bg footer-p "
         style={{ backgroundColor: "#71A28A" }}
       >
-        <div className="header-top second-header d-none d-md-block">
+       
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-8 col-md-8 d-none d-lg-block">
-                <div className="header-cta">
-                  <div className="slider-btn mt-30">
-                    <Link to="/contact" className="btn ss-btn mr-15">
-                      Patient Paperwork
-                    </Link>
-                    <span style={{ fontWeight: "bold", color: "black" }}>
-                      Cynthia Sclater, D.M.D.
-                    </span>
-                  </div>
-                </div>
-              </div>
+            
 
-              <div className="col-lg-4 col-md-4 d-none d-lg-block text-right">
+              <div className="col-lg-12 col-md-4 d-none d-lg-block text-center">
                 <div className="header-social">
                   <li>
                     <i
@@ -88,8 +76,8 @@ const Main = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          
+       
 
         {/* <div className="col-xl-12 col-lg-8 col-sm-6">
           <div className="row justify-content-evenly">
@@ -104,7 +92,7 @@ const Main = () => {
         <div className="row align-items-center copyright-wrap">
           <div className="col-lg-6">
             <div className="copy-text">
-              Copyright &copy; 2022 <Link to="#">Jonathan Mark Allison</Link>.
+              Copyright &copy; 2023 <Link to="#" style={{color:"white"}}>Jonathan Mark Allison</Link>.
               All rights reserved.
             </div>
           </div>
