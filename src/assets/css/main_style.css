@@ -291,7 +291,7 @@ label {
 }
 
 .btn:hover{
-    background: #blue;
+    background: #71A28A;
     color: #fff;
 }
 .btn:hover::before{opacity: 0;}
@@ -5836,7 +5836,7 @@ min-width: 250px;
 z-index: 1;
 transition: all 0.3s ease-in-out;
 margin-top: 15px;
-border-top: 4px solid #ff4f9d;
+border-top: 4px solid #71A28A;
 box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 opacity: 0;
@@ -5855,7 +5855,7 @@ text-align: left;
 }
 
 .main-menu .has-sub a:hover{
-	color:#ff4f9d;
+	color:#71A28A;
 }
 
 .main-menu .has-sub:hover > ul { visibility: visible; margin-top: 0px; opacity: 1;}
@@ -5888,7 +5888,7 @@ top: -3px;
     color: #4f4f4f;
 }
 .main-menu .has-sub ul li a:hover {
-    color: #ff4f9d;
+    color: #71A28A;
 }
 /* 23. mega menu */
 

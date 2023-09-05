@@ -38,7 +38,7 @@ const Main = () => {
                           <Link to="/">Home</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/about">About Us</Link>
+                          <Link to="">About Us</Link>
                           <ul>
                             <li>
                               <Link to="/team2">Meet The Doctors</Link>

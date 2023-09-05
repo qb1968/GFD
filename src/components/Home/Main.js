@@ -12,6 +12,16 @@ import VideoPlayer from "react-background-video-player";
 import Video from "../../assets/img/bg/new.mp4";
 import About from "../HomeMain/About"
 import Logo from "../../assets/img/logo/logo (3).png"
+import Img1 from "../../assets/img/brand/ada.png";
+import Img2 from "../../assets/img/gallery/content-img-1.jpg";
+import Img3 from "../../assets/img/gallery/content-img-3-updated.jpg";
+import Img4 from "../../assets/img/gallery/content-img-4.jpg";
+import Img5 from "../../assets/img/gallery/content-img-5.jpg";
+import Img6 from "../../assets/img/gallery/content-img-6.jpg";
+import Img7 from "../../assets/img/brand/aafe.png";
+import Img8 from "../../assets/img/brand/agd.png";
+import Img9 from "../../assets/img/brand/msda.png";
+import Img10 from "../../assets/img/brand/botox.png";
 
 
 
@@ -20,14 +30,48 @@ const Main = () => {
   return (
     <>
       <main>
-        <div style={{ display:"flex",justifyContent: "center" }}>
-          <img src={Logo}  />
+        <section id="home" className="slider-area ">
+          <div className="slider-active">
+            <div
+            // className="single-slider slider-bg d-flex align-items-center"
+            // style={{
+            //   backgroundSize: "cover",
+            //   backgroundImage: `url(${BGImg})`,
+            // }}
+            >
+              <div className="container" style={{ display: "flex", justifyContent: "center" }}>
+                
+                <img src={Logo}  />
+                <div className="row justify-content-center align-items-center">
+                    <VideoPlayer
+                    src={Video}
+                    autoPlay={true}
+                    muted={true}
+                        
+                    style={{marginTop:"15rem"}}
+                   
+                  />
+                  <div className="col-lg-6 col-md-6">
+                   
+                    <div className="slider-content s-slider-content mt-20">
+                     
+                      <div className="slider-btn mt-30"></div>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 p-relative"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <main>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <img src={Logo} />
         </div>
-        
+
         <div>
           <VideoPlayer
             src={Video}
-            
             autoPlay={true}
             muted={true}
             playsInLing={true}
@@ -35,10 +79,9 @@ const Main = () => {
               height: "85vh",
               width: "85%",
               marginLeft: "145px",
-              postion:"center",
+              postion: "center",
               marginTop: "15rem",
             }}
-            
           />
         </div>
         {/* <div
@@ -51,13 +94,39 @@ const Main = () => {
                 width:"100%"
               }}
             ></div> */}
-       
-        <div className="container" style={{ marginTop: "48rem" }}>
-          <About/>
+
+        <div className="container" style={{ marginTop:"52rem" }}>
+          <About />
+        </div>
+        <h1 style={{ textAlign: "center" }}>Our Associations</h1>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-evenly",
+            marginTop: "15px",
+          }}
+        >
+          <div>
+            <img src={Img1} alt="" />
+          </div>
+          <div>
+            <img src={Img7} alt="" />
+          </div>
+          <div>
+            <img src={Img8} alt="" />
+          </div>
+          <div>
+            <img src={Img9} alt="" />
+          </div>
+          <div>
+            <img src={Img10} alt="" />
+          </div>
         </div>
 
         {/* <Testimonial /> */}
-      </main>
+      </main>{" "}
+      */}
     </>
   );
 };

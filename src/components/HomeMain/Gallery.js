@@ -269,24 +269,7 @@ import Img10 from "../../assets/img/brand/botox.png"
                <img src={Img6} alt="" />
              </div>
              
-             <h1 style={{ textAlign: "center" }}>Our Associations</h1>
-             <div style={{display:'flex',flexDirection:'row',justifyContent:"space-evenly",marginTop:"15px"}}>
-               <div >
-               <img src={Img1} alt="" />
-             </div>
-             <div >
-               <img src={Img7} alt="" />
-             </div>
-             <div >
-               <img src={Img8} alt="" />
-             </div>
-             <div >
-               <img src={Img9} alt="" />
-             </div>
-             <div >
-               <img src={Img10} alt="" />
-             </div>
-             </div>
+            
              
             
            </div>
