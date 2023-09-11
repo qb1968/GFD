@@ -29,7 +29,7 @@ const Main = () => {
         }}
       >
         <Link
-          to="/contact"
+          to="https://forms.patientconnect365.com/3888"
           className="btn"
           style={{ marginTop: "2rem", height: "3.5rem" }}
         >
@@ -55,24 +55,24 @@ const Main = () => {
           </li>
           <span>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/GentleFamilyDentist"
               title="Facebook"
               style={{ color: "#58846D" }}
             >
               <i className="fab fa-facebook-f"></i>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/gentlefamilydentist/?ref=badge"
               title="Instagram"
               style={{ color: "black" }}
             >
               <i className="fab fa-instagram" style={{ color: "#58846D" }}></i>
             </a>
-            <a href="https://twitter.com" title="Twitter">
+            <a href="https://twitter.com/GentleDetistryMD" title="Twitter">
               <i className="fab fa-twitter" style={{ color: "#58846D" }}></i>
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/channel/UCb9WX7vcBX7JqaNakHFXITw/videos"
               title="Youtube"
               style={{ color: "#58846D" }}
             >
@@ -254,7 +254,7 @@ const Main = () => {
                           </>
                         )}
                       </Link>
-                      <nav className="mean-nav">
+                      {/* <nav className="mean-nav">
                         {mobile && (
                           <ul style={{ display: mobile ? "block" : "none" }}>
                             <li className="has-sub">
@@ -399,7 +399,7 @@ const Main = () => {
                             </li>
                           </ul>
                         )}
-                      </nav>
+                      </nav> */}
                     </div>
                   </div>
                 </div>
