@@ -9,7 +9,7 @@ import Image4 from "../../assets/img/gallery/content-img-5.jpg"
 import Image5 from "../../assets/img/gallery/content-img-6.jpg"
 import Gallery from "../HomeMain/Gallery"
 import VideoPlayer from "react-background-video-player";
-import Video from "../../assets/img/bg/new.mp4";
+import Video from "../../assets/img/bg/new - Trim.mp4";
 import About from "../HomeMain/About"
 import Logo from "../../assets/img/logo/logo (3).png"
 import Img1 from "../../assets/img/brand/ada.png";
@@ -39,22 +39,19 @@ const Main = () => {
             //   backgroundImage: `url(${BGImg})`,
             // }}
             >
-              <div className="container" style={{ display: "flex", justifyContent: "center" }}>
-                
-                <img src={Logo}  />
-                <div className="row justify-content-center align-items-center">
-                    <VideoPlayer
+              <div
+                className="container"
+                style={{ display: "flex", justifyContent: "center"}}
+              >
+                <div className="row justify-content-center align-items-center" >
+                  <VideoPlayer
                     src={Video}
                     autoPlay={true}
                     muted={true}
-                        
-                    style={{marginTop:"15rem"}}
-                   
+                    style={{ marginTop: "20rem"}}
                   />
                   <div className="col-lg-6 col-md-6">
-                   
                     <div className="slider-content s-slider-content mt-20">
-                     
                       <div className="slider-btn mt-30"></div>
                     </div>
                   </div>
@@ -95,7 +92,7 @@ const Main = () => {
               }}
             ></div> */}
 
-        <div className="container" style={{ marginTop:"52rem" }}>
+        <div className="container" style={{ marginTop: "62rem" }}>
           <About />
         </div>
         <h1 style={{ textAlign: "center" }}>Our Associations</h1>
@@ -104,11 +101,12 @@ const Main = () => {
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-evenly",
-            marginTop: "15px",
+            alignItems:"center",
+            backgroundColor: "#58846D",
           }}
         >
           <div>
-            <img src={Img1} alt="" />
+            <img src={Img1} alt="" style={{}} />
           </div>
           <div>
             <img src={Img7} alt="" />

@@ -1,5 +1,5 @@
 import React from "react";
-import BGImg1 from "../../assets/img/bg/about-bg.png";
+import BGImg1 from "../../assets/img/bg/marble.jpg";
 import { Link } from "react-router-dom";
 import Img from "../../assets/img/gallery/cindy.jpg";
 
@@ -9,9 +9,7 @@ const About = () => {
       <section
         className="about-area about-p pt-120 pb-120 p-relative fix"
         style={{
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundImage: `url(${BGImg1})`,
         }}
       >
@@ -34,7 +32,7 @@ const About = () => {
                 <div className="about-title second-title pb-25">
                   <h2 style={{ color: "black" }}>About Us </h2>
                 </div>
-                <p style={{ fontWeight: "600" }}>
+                <p style={{ fontWeight: "600", color: "black" }}>
                   We are a dental practice devoted to restoring and enhancing
                   the natural beauty of your smile using conservative,
                   state-of-the-art procedures that will result in a beautiful,
@@ -49,7 +47,7 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     To provide superior dental care in an inviting and
                     comfortable environment, while creating lasting
                     relationships.
@@ -69,11 +67,11 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     We are proud to offer the latest dental technology in our
                     Dunkirk, MD office. We are one of
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     the only dental practices in Calvert County to offer CEREC
                     technology. We offer low radiation 3D Cone Beam Imaging to
                     gain the clearest and most accurate digital images to assist
@@ -88,7 +86,7 @@ const About = () => {
                       <span style={{ color: "black" }}>High Standards</span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     A standard of excellence in personalized dental care enables
                     us to provide the quality dental services our patients
                     deserve. We provide comprehensive treatment planning and use
@@ -105,7 +103,7 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     A standard of excellence in personalized dental care enables
                     us to provide the quality dental services our patients
                     deserve. We provide comprehensive treatment planning and use
@@ -122,7 +120,7 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     Infection control in our office is also very important to
                     us. To protect our patients and ourselves, we strictly
                     maintain sterilization and cross contamination processes
@@ -138,7 +136,7 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     As your dental health professionals, we want you to be
                     confident knowing that we are a team of highly trained and
                     skilled clinicians. We pride ourselves in providing the care
@@ -168,7 +166,7 @@ const About = () => {
                       </span>
                     </strong>
                   </p>
-                  <p style={{ fontWeight: "600" }}>
+                  <p style={{ fontWeight: "600", color: "black" }}>
                     We thank you for allowing us to take care of your dental
                     needs and look forward to serving you.
                   </p>

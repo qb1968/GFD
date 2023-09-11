@@ -18,21 +18,79 @@ const Main = () => {
 
   return (
     <>
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignContent: "center",
+          marginBottom: "2rem",
+          padding: "1rem",
+        }}
+      >
+        <Link
+          to="/contact"
+          className="btn"
+          style={{ marginTop: "2rem", height: "3.5rem" }}
+        >
+          Patient Paperwork
+        </Link>
+        <img src={Logo} />
+        <div className="header-social" style={{ marginTop: "2rem" }}>
+          <li>
+            <i className="icon fa fa-envelope" style={{ color: "#58846D" }}></i>
+            <span
+              style={{ color: "black", fontSize: "16px", fontWeight: "bold" }}
+            >
+              office@dunkirkdental.com{" "}
+            </span>
+          </li>
+          <li>
+            <i className="icon fa fa-phone" style={{ color: "#58846D" }}></i>
+            <span
+              style={{ color: "black", fontSize: "16px", fontWeight: "bold" }}
+            >
+              410-257-2424
+            </span>
+          </li>
+          <span>
+            <a
+              href="https://www.facebook.com/"
+              title="Facebook"
+              style={{ color: "#58846D" }}
+            >
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              title="Instagram"
+              style={{ color: "black" }}
+            >
+              <i className="fab fa-instagram" style={{ color: "#58846D" }}></i>
+            </a>
+            <a href="https://twitter.com" title="Twitter">
+              <i className="fab fa-twitter" style={{ color: "#58846D" }}></i>
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              title="Youtube"
+              style={{ color: "#58846D" }}
+            >
+              <i className="fab fa-youtube"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+
       <header className="header-area">
         <div id="header-sticky" className="menu-area">
           <div className="container">
             <div className="second-menu">
               <div className="row align-items-center">
-                <div className="col-xl-3 col-lg-2"> 
-                    <Link to="/contact" className="btn ss-btn mr-auto" >
-                      Patient Paperwork
-                  </Link>
-                
-                </div>
-                <div className="col-xl-7 col-lg-7">
+                <div className="col-xl-3 col-lg-2"></div>
+                <div className="col-xl-6 col-lg-7">
                   <div className="main-menu text-center text-xl-right">
                     <nav id="mobile-menu">
-                      
                       <ul>
                         <li className="has-sub">
                           <Link to="/">Home</Link>
@@ -349,7 +407,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-       
       </header>
     </>
   );

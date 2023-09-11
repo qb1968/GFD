@@ -17,65 +17,10 @@ const Main = () => {
     <>
       <footer
         className="footer-bg footer-p "
-        style={{ backgroundColor: "#71A28A" }}
+       
       >
        
-          <div className="container">
-            
-
-              <div className="col-lg-12 col-md-4 d-none d-lg-block text-center">
-                <div className="header-social">
-                  <li>
-                    <i
-                      className="icon fa fa-envelope"
-                      style={{ color: "black" }}
-                    ></i>
-                    <span style={{ color: "black" }}>
-                      office@dunkirkdental.com{" "}
-                    </span>
-                  </li>
-                  <li>
-                    <i
-                      className="icon fa fa-phone"
-                      style={{ color: "black" }}
-                    ></i>
-                    <span style={{ color: "black" }}>410-257-2424</span>
-                  </li>
-                  <span>
-                    <a
-                      href="https://www.facebook.com/"
-                      title="Facebook"
-                      style={{ color: "black" }}
-                    >
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a
-                      href="https://www.instagram.com/"
-                      title="Instagram"
-                      style={{ color: "black" }}
-                    >
-                      <i
-                        className="fab fa-instagram"
-                        style={{ color: "black" }}
-                      ></i>
-                    </a>
-                    <a href="https://twitter.com" title="Twitter">
-                      <i
-                        className="fab fa-twitter"
-                        style={{ color: "black" }}
-                      ></i>
-                    </a>
-                    <a
-                      href="https://www.youtube.com/"
-                      title="Youtube"
-                      style={{ color: "black" }}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
+         
           
        
 
@@ -89,10 +34,10 @@ const Main = () => {
           </div>
         </div> */}
 
-        <div className="row align-items-center copyright-wrap">
+        <div className="row align-items-center copyright-wrap" >
           <div className="col-lg-6">
             <div className="copy-text">
-              Copyright &copy; 2023 <Link to="#" style={{color:"white"}}>Jonathan Mark Allison</Link>.
+              Copyright &copy; 2023 <Link to="#" style={{color:"black"}}>Jonathan Mark Allison</Link>.
               All rights reserved.
             </div>
           </div>
