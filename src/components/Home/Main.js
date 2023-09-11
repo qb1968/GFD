@@ -95,9 +95,10 @@ const Main = () => {
         <div className="container" style={{ marginTop: "62rem" }}>
           <About />
         </div>
-        <h1 style={{ textAlign: "center" }}>Our Associations</h1>
+        <h1 style={{ textAlign: "center",padding:"1rem" }}>Our Associations</h1>
         <div
           style={{
+            padding:"1rem",
             display: "flex",
             flexDirection: "row",
             justifyContent: "space-evenly",

@@ -35,8 +35,8 @@ const Main = () => {
         </div> */}
 
         <div className="row align-items-center copyright-wrap" >
-          <div className="col-lg-6">
-            <div className="copy-text">
+          <div className="col-lg-12">
+            <div className="copy-text" style={{textAlign:"center"}}>
               Copyright &copy; 2023 <Link to="#" style={{color:"black"}}>Jonathan Mark Allison</Link>.
               All rights reserved.
             </div>
